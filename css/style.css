@@ -1,0 +1,242 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+/**************************
+header section css
+***************************/
+header{
+	position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+
+/****************************
+banner section css
+*****************************/
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	/*z-index: -9;*/
+}
+.banner::before{
+	content: '';
+	position: absolute;
+	background: #001D38;
+	opacity: 0.2;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -5;
+}
+.banner-text{
+	margin-right: 80px;
+	height: 90vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-text h1{
+	font-size: 60px;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 46px;
+}
+.banner-text button{
+	padding: 19px 42px;
+    background: #FFE8C3;
+    border: none;
+    text-transform: capitalize;
+}
+
+/*
+category section code
+*/
+.category{
+	width: 100%;
+	/* padding: 80px 0px; */
+}
+.cat-box{
+	display: flex;
+}
+.item{
+	flex-grow: 1;
+	padding: 80px;
+}
+.item .content{
+	margin: 0px 42px;
+}
+.item .content h2{
+	font-size: 30px;
+	color: #001D38;
+	position: relative;
+}
+.item .content h2::before{
+	content: '';
+	width: 32px;
+	height: 3px;
+	background: #FFD35A;
+	position: absolute;
+	left: -44px;
+    top: 50%;
+}
+.item .content p{
+	color: #EAEAEA;
+	opacity: 0;
+}
+.item .serial{
+
+}
+.item .serial h1{
+	font-size: 160px;
+	font-weight: 600;
+	color: #dedede;
+}
+.s1,.s2,.s3{
+	background: white;
+}
+.s1:hover .content h2, .s2:hover .content h2, .s3:hover .content h2{
+	color: white;
+}
+.s1:hover .content p, .s2:hover .content p, .s3:hover .content p{
+	color: rgba(255,255,255);
+	opacity: 1;
+}
+.s1:hover .serial h1, .s2:hover .serial h1, .s3:hover .serial h1{
+	color: rgba(255,255,255,0.8);
+}
+.s1:hover{
+	position: relative;
+	background: url(../img/1.png) center no-repeat;
+}
+.s2:hover{
+	position: relative;
+	background: url(../img/2.png) center no-repeat;
+}
+.s3:hover{
+	position: relative;
+	background: url(../img/1.png) center no-repeat;
+}
+.s1:hover::before, .s2:hover::before, .s3:hover::before{
+	content: '';
+	position: absolute;
+	background: #001D38;
+	opacity: 0.6;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+
+/***********************
+our works
+************************/
+.our-works{
+	width: 100%;
+	background-color: #f5fbff;
+	padding: 160px 0;
+}
+.our-works h1{
+	font-size: 50px;
+    font-weight: 500;
+    color: #001D38;
+    margin-bottom: 180px;
+}
+.work-details h3{
+	font-size: 30px;
+    font-weight: 500;
+    color: #001D38;
+}
+.work-details p{
+	color: #596672;
+    margin-top: 12px;
+    margin-bottom: 38px;
+}
+.work-details button, .right button{
+	color: #fff;
+    display: inline-block;
+    padding: 14px 47px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid #001D38;
+    border-radius: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #001d38;
+}
+.work-item .col-md-4{
+	display: flex;
+    align-items: center;
+}
+
+.work-item .container{
+	margin-top: -260px;
+}
+.work-item .row{
+	margin-bottom: 80px;
+}
+
+/***************************
+about
+******************************/
+.about{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #f5fbff;
+}
+
+.right{
+	padding-left: 120px;
+	flex-basis: 35%;
+}
+.right h1{
+	font-size: 50px;
+    font-weight: 500;
+    color: #001D38;
+}
+.right p{
+	color: #596672;
+    margin-top: 12px;
+    margin-bottom: 38px;
+}
+.about-stat{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 32px;
+}
+.about-stat li{
+	list-style-type: none;
+	margin-bottom: 32px;
+}
+.about-stat li h5{
+
+}
+.about-stat li .line1{
+	height: 3px;
+    width: 60%;
+    background: #001d38;
+}
+.about-stat li .line2{
+	height: 3px;
+    width: 70%;
+    background: #001d38;
+}
+.about-stat li .line3{
+	height: 3px;
+    width: 90%;
+    background: #001d38;
+}
