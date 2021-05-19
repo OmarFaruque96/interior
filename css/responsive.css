@@ -1,0 +1,145 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .banner-text h1{
+    font-size: 30px;
+  }
+  .banner-text{
+    height: 60vh;
+  }
+  .banner-area{
+    height: 60vh;
+  }
+  .banner-2{
+    height: 60vh !important;
+  }
+  .item-text {
+    padding: 40px 60px;
+}
+.item-num h1 {
+    font-size: 82px;
+    padding: 0px 0px 45px 56px;
+}
+.our-work {
+    padding: 40px 0px 350px 0px;
+}
+.our h1{
+  font-size: 30px;
+  text-align: center;
+}
+.display-area {
+    margin-top: -322px;
+}
+.our-text p{
+  width: 100%;
+}
+  .our-text{
+    padding-top: 32px;
+  }
+
+.even{
+  flex-direction: column-reverse;
+}
+.creative-text h1 {
+    padding-top: 32px;
+     width: 100%; 
+    font-size: 30px;
+}
+.creative-text p{
+  width: 100%;
+}
+.creative-area{
+  padding-bottom: 42px;
+}
+.slide-top p{
+  width: 100%;
+}
+.gallery-text h1{
+  font-size: 30px;
+}
+.galler-area{
+  padding: 60px 0;
+}
+.gallery-img img{
+  padding: 12px;
+}
+.footer-text-2 {
+  text-align: center;
+    margin-top: 32px;
+}
+
+.nav-1 {
+
+    padding: 30px 0px;
+}
+.nav-3{
+  padding: 10px 0;
+}
+
+.footer-area{
+  text-align: center;
+}
+.nav-3 p{
+  width: 100%;
+}
+
+}

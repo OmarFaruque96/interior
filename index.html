@@ -8,214 +8,513 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-    <!-- font awesome file -->
+    <!-- owl carousel link -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- css, fontawsome & google fonts link file -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <!-- custom css file -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <title>Interior Design!</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- responsive link -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <title>Interior Design</title>
+
   </head>
   <body>
-    
 
-    <!-- header section start -->
+    <!-- header section start from here -->
 
-    <header>
+    <header id="sticky">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <!-- website logo -->
-              <img src="img/logo.png">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
+        <div class="row">
+          <div class="col-md-12 head-padd">
+            <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="image/logo.png">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="nav-btn"><i class="fa fa-bars" aria-hidden="true"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item" href="#">About</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                        Project Details</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Elements</a>
+                      </li>
+                    </ul>
+                  </li>
 
-              <div class="d-flex">
-                  <a href="">Say Hello</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item" href="#">Blog</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                        Single-Blog</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Contact">Contact</a>
+                  </li>
+                </ul>
+                  <div class="d-flex">
+                    <a href="">Say Hello</a>
+                  </div>
+                </div>
               </div>
-
-            </div>
+            </nav>
           </div>
-        </nav>
+        </div>
       </div>
     </header>
 
-    <!-- header section end -->
+    <!-- header section end from here -->
 
-    <!-- banner section start -->
-    <section class="banner">
-      <div class="overlay"></div>
-      <div class="container">
-          <div class="row">
-            <div class="col-md-8">
-              <div class="banner-text">
-                <h1>Interior Design Solution <br> For your Business</h1>
-                <button>view works</button>
+    <!-- banner section start from here -->
+    <section class="banner-1st">
+      <div class="owl-carousel owl-theme owl-1">
+        <div class="item">
+          <div class="banner-area">
+            <div class="overlay">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="banner-text">
+                      <h1>Interior Design Solution For your Business</h1>
+                      <button>View Works</button>
+                    </div>
+                  </div>
+                  <div class="col-md-4"></div>
+                </div>
+              </div>
+           </div>
+         </div>
+      </div>
+      <div class="item">
+        <div class="banner-area banner-2">
+          <div class="overlay">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="banner-text">
+                    <h1>Interior Design Solution For your Business</h1>
+                    <button>View Works</button>
+                  </div>
+                </div>
+                <div class="col-md-4"></div>
               </div>
             </div>
-            <div class="col-md-4"></div>
-          </div>
-        </div>
-    </section>
-    <!-- banner section end -->
-
-    <!-- category section start -->
-    <section class="category">
-      <div class="cat-box">
-        <div class="item s1">
-          <div class="content">
-            <h2>Planing</h2>
-            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit ame</p>
-          </div>
-          <div class="serial">
-            <h1>01</h1>
-          </div>
-        </div>
-        <div class="item s2">
-          <div class="content">
-            <h2>Planing</h2>
-            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit ame</p>
-          </div>
-          <div class="serial">
-            <h1>02</h1>
-          </div>
-        </div>
-        <div class="item s3">
-          <div class="content">
-            <h2>Planing</h2>
-            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit ame</p>
-          </div>
-          <div class="serial">
-            <h1>03</h1>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+        
+      
+    <!-- banner section end from here -->
+
+    <!-- category section start from here -->
+
+    <section class="category-area">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="item01 s1">
+          <div class="item-text">
+            <h2>Planing</h2>
+            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet</p>
+          </div>
+          <div class="item-num">
+            <h1>01</h1>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item01 s2">
+          <div class="item-text">
+            <h2>Architecture</h2>
+            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet</p>
+          </div>
+          <div class="item-num">
+            <h1>02</h1>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item01 s3">
+          <div class="item-text">
+            <h2>3D Design</h2>
+            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet</p>
+          </div>
+          <div class="item-num">
+            <h1>03</h1>
+          </div>
+        </div>
+        </div>
+      </div>
     </section>
-    <!-- category section end -->
 
+    <!-- category section end from here -->
 
-    <!-- our works section start -->
+    <!-- our work section start from here -->
 
-    <section class="our-works">
+    <section class="our-work">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 our">
             <h1>Our Works</h1>
           </div>
         </div>
       </div>
     </section>
+    <!-- our work section end from here -->
 
-    <section class="work-item">
+
+    <!-- display section start from here -->
+
+    <section id="Projects" class="display-area">
       <div class="container">
-        <!-- works details -->
-        <div class="row">
+        <div class="row ext-m">
           <div class="col-md-7">
-            <img src="img/item-1.png" class="img-fluid">
+            <div class="our-img">
+              <img src="image/o1.png" class="img-fluid">
+            </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-details">
-              <h3>White Blocks House</h3>
+          <div class="col-md-5">
+            <div class="our-text">
+              <h1>White Blocks House</h1>
               <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet</p>
               <button>Details</button>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="work-details">
-              <h3>White Blocks House</h3>
+        <div class="row ext-m even">
+          <div class="col-md-5">
+            <div class="our-text">
+              <h1>Art Gallery Design</h1>
               <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet</p>
               <button>Details</button>
             </div>
           </div>
           <div class="col-md-7">
-            <img src="img/item-1.png" class="img-fluid">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-7">
-            <img src="img/item-1.png" class="img-fluid">
-          </div>
-          <div class="col-md-4">
-            <div class="work-details">
-              <h3>White Blocks House</h3>
-              <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet</p>
-              <button>Details</button>
+            <div class="our-img">
+              <img src="image/o2.png" class="img-fluid">
             </div>
           </div>
         </div>
-        <div class="row">
-          
-          <div class="col-md-4">
-            <div class="work-details">
-              <h3>White Blocks House</h3>
+        <div class="row ext-m">
+          <div class="col-md-7">
+            <div class="our-img">
+              <img src="image/o3.png" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="our-text">
+              <h1>Art Gallery Design</h1>
+              <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet</p>
+              <button>Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="row ext-m even">
+          <div class="col-md-5">
+            <div class="our-text">
+              <h1>Office Space</h1>
               <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet</p>
               <button>Details</button>
             </div>
           </div>
           <div class="col-md-7">
-            <img src="img/item-1.png" class="img-fluid">
+            <div class="our-img">
+              <img src="image/o4.png" class="img-fluid">
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- our works section end -->
+    <!-- our work section end from here -->
+
+    <!-- creative section start from here -->
+
+    <section class="creative-area">
+      <div class="row">
+          <div class="col-md-6">
+        <div class="creative-img">
+          <img src="image/cre1.png" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="creative-align">
+          <div class="creative-text">
+            <h1>Professional and creative mind</h1>
+            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet.</p>
+          </div>
+          <div class="creative-t-li">
+            <ul>
+              <li>
+                <h5>Architecture</h5>
+                <div class="line-1"></div>
+              </li>
+              <li>
+              <h5>3D Design</h5>
+                <div class="line-2"></div>
+              </li>
+              <li>
+                <h5>Interior</h5>
+                <div class="line-3"></div>
+              </li>
+            </ul>
+            <button>About Us</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- creative section end from here -->
+
+    <!-- slide section start from here -->
+
+    <section class="slider-area">
+      <div class="container">
+        <div class="owl-carousel owl-theme owl-2">
+          <div class="item">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="slide-top">
+                  <img src="image/quote.png">
+                  <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+                </div>
+                <div class="slider-bottom">
+                  <img src="image/test-sm1.png">
+                  <h5>Robert Thomsom</h5>
+                  <h6>Business Owner</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="container">
+          <div class="item">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="slide-top">
+                  <img src="image/quote.png">
+                  <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+                </div>
+                <div class="slider-bottom">
+                  <img src="image/test-sm1.png">
+                  <h5>Robert Thomsom</h5>
+                  <h6>Business Owner</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="item">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="slide-top">
+                  <img src="image/quote.png">
+                  <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+                </div>
+                <div class="slider-bottom">
+                  <img src="image/test-sm1.png">
+                  <h5>Robert Thomsom</h5>
+                  <h6>Business Owner</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- slide section end from here -->
     
-    <section class="about">
-      <div class="left">
-        <img src="img/about.png" class="img-fluid">
-      </div>
-      <div class="right">
-        <h1>Professional and creative mind</h1>
-        <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet.</p>
+    <!-- gallery section start from here -->
 
-        <ul class="about-stat">
-          <li>
-            <h5>Architecture</h5>
-            <div class="line1"></div>
-          </li>
-          <li>
-            <h5>3D Design</h5>
-            <div class="line2"></div>
-          </li>
-          <li>
-            <h5>Interior</h5>
-            <div class="line3"></div>
-          </li>
-        </ul>
-
-        <button>About Us</button>
+    <section class="galler-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="gallery-text">
+              <h1>@Instagram</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="gallery-img">
+              <img src="image/insta-1.png" class="img-fluid">
+              <img src="image/insta-2.png" class="img-fluid">
+              <img src="image/insta-3.png" class="img-fluid">
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
+    <!-- gallery section end from here -->
+
+    <!-- footer section start from here -->
+
+    <section id="Contact" class="footer-area">
+      <div class="container padd">
+        <div class="row footer-top">
+          <div class="col-md-8 footer-text-1">
+              <h1>Have any project or query?</h1>
+              <h1>Just say hello<a href="">Mail Us</a></h1>
+          </div>
+          <div class="col-md-4 footer-text-2">
+              <h1>+10 673 563 629</h1>
+              <h3>support@interior.com</h3>
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="nav-1">
+                <h3>Address</h3>
+                <ul>
+                  <li><p>700/D, Kings road, Green land New</p></li>
+                  <li><p>York-9274</p></li>
+                  <li><a href="">+10 357 258 3827</a></li>
+                  <li><a href="">contact@interior.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="nav-1">
+                <h3>Services</h3>
+                <ul>
+                  <li><a href="">Interior</a></li>
+                  <li><a href="">Architecture</a></li>
+                  <li><a href="">3D Modeling</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="nav-1">
+                <h3>Company</h3>
+                <ul>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Appointment</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="nav-3">
+                <h3>Subscribe</h3>
+                <form>
+                  <input type="email" name="" placeholder="Enter your mail" class="form-control">
+                  <button>Subscribe</button>
+                </form>
+                <p>Esteem spirit temper too say adieus who direct esteem esteems luckily.</p>
+              </div>
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-bottom">
+              <p>Copyright ©2021 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="">Colorlib</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section end from here -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
-    <!-- main js file -->
-    <script src="js/main.js"></script>
+    <!-- custom js file -->
+    <script type="">
+      
+        window.addEventListener('scroll', function(){
+        let header = document.querySelector('header');
+        header.classList.toggle('sticky',window.scrollY>0)
+      })
+
+    </script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+
+    <script>
+          $('.banner-1st .owl-carousel').owlCarousel({
+        loop:true,
+        nav:true,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        dots:false,
+        smartSpeed: 1500,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
+
+          $('.slider-area .owl-carousel').owlCarousel({
+        loop:true,
+        nav:true,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        dots:false,
+        smartSpeed: 1500,
+        responsive:{
+            0:{
+                items:1,
+                nav:false,
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
+    </script>
 
   </body>
 </html>
